@@ -4,6 +4,12 @@ import concrete_decorator.SeccionEnviosDecorator;
 import concrete_decorator.SeccionGraficoDecorator;
 import concrete_decorator.SeccionTotalesDecorator;
 
+/* Patrón elegido: Decorator.
+Justificación: Elegí este patrón porque me permite agregar las diferentes secciones (totales, gráficos y envíos)
+al reporte base de forma flexible. En lugar de crear una clase nueva por cada combinación posible de reporte,
+Decorator me deja construirlos dinámicamente, lo que hace el código mucho más ordenado y fácil de mantener.
+*/
+
 public class Main {
     public static void main(String[] args) {
         //Primer Reporte
